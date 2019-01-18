@@ -2,7 +2,6 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline">
-        <span>Vuetify</span>
         <span class="font-weight-light">Card Game - Pairs</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>

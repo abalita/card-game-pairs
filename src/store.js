@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    user:{}
   },
   mutations: {
-
+    JOIN(state, payload){
+      state.user = payload;
+    }
   },
   actions: {
 
